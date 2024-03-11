@@ -1,4 +1,0 @@
-package firststeps
-
-class inteiros {
-}

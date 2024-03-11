@@ -88,8 +88,57 @@ fun main() {
     println(c2.isUpperCase())
     println(c2.digitToInt())*/
 
-    val s1 : String = "abc"
-    val s2 = "def"
-    val s1s2 = s1 + s2
-    print (s1s2)
+   // val s1 : String = "abc"
+    //val s2 = "def"
+    //val s1s2 = s1 + s2
+   // print (s1s2)
+  //  val s1 = "abc"
+   // val s2 = "def"
+    //val s1s2 = "Soma: '$s1$s2'. O Tamanho é: ${(s1 + s2).length}"
+
+    /*
+    O rato reoeu
+    a roupa do
+    rei do  "Roma"
+    */
+   /* val s1 = "O rato roeu \na \$roupa do \nrei de \"Roma\"."
+val s2 = """
+    |O rato roeu
+   | a roupa do
+   | rei de "Roma"
+    """.trimMargin()
+    //trimIndent()
+    println(s1)
+    println()
+    println(s2)/*
+
+    */
+    */
+
+     //var msg = "Hi !"
+  //  println(msg)
+
+    //print("Digite seu nome:  ")
+    //val name = readln( )
+
+    //println ("Seu nome invertido é : ${name.reversed()}")
+
+    /*print (">")
+    val n1 = readln().toInt()
+    print (">")
+
+    val n2 = readln().toInt()
+
+    println ("Result:  ${n1 + n2}")*/
+
+    val scanner = Scanner(System.`in`)
+
+    print(">")
+       val n1 = scanner.nextInt()
+
+    print(">")
+    val n2 = scanner.nextInt()
+
+    println("Result: ${n1 + n2}")
+
 }
